@@ -1,0 +1,59 @@
+.website-initial-container {
+  background-color: #10b981;
+  width: 40px;
+  padding-left: 12px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.website-initial {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.user-list-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #94a3b8;
+  margin: 0px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.website {
+  color: #ffffff;
+  font-size: 14px;
+}
+.username {
+  color: #ffffff;
+  font-size: 14px;
+}
+.password {
+  color: #ffffff;
+  font-size: 14px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+.user-details-container {
+  margin-right: 20px;
+}
+.stars {
+  height: 20px;
+}
+@media screen and (max-width: 576px) {
+  .user-list-item {
+    padding: 10px;
+  }
+  .user-details-container {
+    margin-right: 5px;
+  }
+}
